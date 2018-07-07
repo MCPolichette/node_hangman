@@ -135,6 +135,9 @@ var hangman_game = {
                     hangman_game.userChooses();
                 })
             } else {
+                console.log("\n        +--------------------------------------+\n        |          YOU'VE LOST!!               |\n        |                                      |\n        |          the word was                |\n        |      "
+                    + test_word.myWord + "\n        +--------------------------------------+\n          \n")
+
                 hangman_game.end_game();
             }
     },
